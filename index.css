@@ -1,0 +1,96 @@
+* {
+  
+}
+
+
+.Publicacion{
+
+    
+    width: auto;
+    height: 50px;
+}
+
+p{
+    margin: 5px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+body{
+    background-color: #0b0b0b;
+}
+
+.dropdown-item1{
+    color: red;
+    padding: 15px;
+    
+}
+
+.dropdown{
+    margin-right: 50px;
+}
+
+
+.card-footer{
+    border-top: none;
+}
+
+.card2{
+  margin-top: 10px;  
+}
+
+.dos{
+    color: #000;
+    font-size: small;
+    font-weight: bold;
+}
+
+.tres{
+    color: #000;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.card-body{
+    color: #808080;
+    
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-header{
+        color: #000;
+    font-size: small;
+    font-weight: bold;
+}
+
+.no-padding-card .card-body {
+  padding: 0 !important;
+}
+
+.dropdown-item1{
+    border: none !important;
+}
