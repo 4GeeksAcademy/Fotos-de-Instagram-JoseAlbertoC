@@ -18,74 +18,95 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand"><i class="fa-brands fa-instagram"></i>Instagram</a>
-            <form class="d-flex">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Create a new post
-                </button>
+            <button class="navbar-toggler  ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
 
-                                Caption:
-                                <div class="card">
 
-                                    <textarea class="form-control" id="postCaption" rows="3"
-                                        placeholder="Add the caption of your post here..."></textarea>
+                </ul>
+
+                <!-- aqui -->
+                <form class="d-flex">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    Caption:
+                                    <div class="card">
+
+                                        <textarea class="form-control" id="postCaption" rows="3"
+                                            placeholder="Add the caption of your post here..."></textarea>
+
+                                    </div>
+
+                                    <button type="button" class="btn btn-light">
+                                        <i class="fa-solid fa-camera"></i></button>
+                                    <button type="button" class="btn btn-light"><i
+                                            class="fa-solid fa-location-dot"></i></button>
+
 
                                 </div>
-
-                                <button type="button" class="btn btn-light">
-                                    <i class="fa-solid fa-camera"></i></button>
-                                <button type="button" class="btn btn-light"><i
-                                        class="fa-solid fa-location-dot"></i></button>
-
-
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-success">Publish</button>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
 
 
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-gear"></i>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                        <li><a class="dropdown-item active" href="#">Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item1" href="#">Log out</a></li>
-                    </ul>
-                </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item1" href="#">Log out</a></li>
+                        </ul>
+                    </div>
 
 
 
 
-            </form>
+                </form>
+
+
+
+
+            </div>
         </div>
     </nav>
+
 
 
     <!-- Esto es el navs-->
@@ -142,7 +163,7 @@
 
 
                                 <div class="card-footer bg-transparent border-success">
-                                    <p class="dos">3.0M likes</p>
+                                    <p class="dos ">3.0M likes</p>
                                     <p class="tres">Ha sido clasificado como la marca de club de fútbol más valiosa y la
                                         más fuerte del mundo.
                                     </p>
@@ -203,86 +224,78 @@
             <!-- aqui va el contenido de 3 -->.
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-lg-3">
+                    <div class=" col-md-6 col-lg-4">
                         <div class="ratio ratio-1x1">
                             <div class="d-flex justify-content-cover p-2 "> <img src="5.webp" alt="">
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="ratio ratio-1x1 ">
                             <div class="d-flex justify-content-cover p-2 "> <img src="1.jpg" alt=""></div>
                         </div>
 
                     </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="ratio ratio-1x1">
-                            <div class="d-flex justify-content-cover"> <img src="3.jpg" alt=""></div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-lg-3">
-                        <div class="ratio ratio-1x1">
-                            <div class="d-flex justify-content-cover p-2"> <img src="4.jpg" alt="">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="ratio ratio-1x1 ">
-                            <div class="d-flex justify-content-cover p-2"> <img src="3.jpg" alt=""></div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="ratio ratio-1x1">
-                            <div class="d-flex justify-content-cover p-2"> <img src="4.jpg" alt=""></div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="ratio ratio-1x1">
                             <div class="d-flex justify-content-cover p-2"> <img src="3.jpg" alt="">
                             </div>
                         </div>
 
+
                     </div>
-                    <div class="col-md-3 col-lg-3">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-1x1">
+                            <div class="d-flex justify-content-cover p-2"> <img src="3.jpg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
                         <div class="ratio ratio-1x1 ">
+                            <div class="d-flex justify-content-cover p-2"> <img src="3.jpg" alt=""></div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-1x1">
                             <div class="d-flex justify-content-cover p-2"> <img src="4.jpg" alt=""></div>
                         </div>
 
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-md-6 col-lg-4">
                         <div class="ratio ratio-1x1">
-                            <div class="d-flex justify-content-cover p-2"> <img src="5.webp" alt=""></div>
+                            <div class="d-flex justify-content-cover p-2"> <img src="4.jpg" alt=""></div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-1x1">
+                            <div class="d-flex justify-content-cover p-2"> <img src="4.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-1x1">
+                            <div class="d-flex justify-content-cover p-2"> <img src="4.jpg" alt=""></div>
                         </div>
 
                     </div>
 
 
+
+
+
+
+
+
+
+
                 </div>
 
-
-
-
-
-
-
             </div>
-
-        </div>
-
 
 
 </body>
